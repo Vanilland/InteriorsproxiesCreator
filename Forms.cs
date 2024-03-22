@@ -129,25 +129,29 @@ namespace InteriorsproxiesCreator
                         bool findfiles = false;
                         foreach (string line in lines)
                         {
-                            if (line.StartsWith("files"))
+                            if (!findfiles)
                             {
-                                findfiles = true;
-                                //1行の場合
-                                Match match = Regex.Match(line, @"'[\w\.]+'");
-                                if (match.Success)
+                                if (line.StartsWith("files ") || line.StartsWith("file "))
                                 {
-                                    filenames.Add(match.Value);
+                                    findfiles = true;
+                                    //1行の場合
+                                    Match match = Regex.Match(line, @"'[\w\.]+'");
+                                    if (match.Success)
+                                    {
+                                        filenames.Add(match.Value);
 
-                                    sw.WriteLine("data_file 'INTERIOR_PROXY_ORDER_FILE' 'interiorproxies.meta'");
-                                    sw.WriteLine("files {");
-                                    sw.WriteLine("\t" + match.Value+",");
-                                    sw.WriteLine("\t'interiorproxies.meta',");
-                                    sw.WriteLine("}");
-                                    writeproxies = true;
-                                    findfiles = false;
-                                    continue;
+                                        sw.WriteLine("data_file 'INTERIOR_PROXY_ORDER_FILE' 'interiorproxies.meta'");
+                                        sw.WriteLine("files {");
+                                        sw.WriteLine("\t" + match.Value + ",");
+                                        sw.WriteLine("\t'interiorproxies.meta',");
+                                        sw.WriteLine("}");
+                                        writeproxies = true;
+                                        findfiles = false;
+                                        continue;
+                                    }
                                 }
                             }
+
                             if (findfiles)
                             {
                                 Match match = Regex.Match(line, @"'[\w\.]+'");
