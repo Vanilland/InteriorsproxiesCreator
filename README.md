@@ -3,13 +3,13 @@ FiveM InteriorsproxiesCreator
 
 Visual Studio 2022 C#
 
-FiveM‚ÌƒŠƒ\[ƒXƒtƒ@ƒCƒ‹‚ğw’è‚µ‚ÄAmilo_.ymap‚ğ’T‚µ‚Ä
-‚»‚Ìã‚É‚ ‚éfxmanifest.lua‚Æ“¯‚¶ƒfƒBƒŒƒNƒgƒŠ‚Éinteriorproxies.meta‚ğì¬
-fxmanifest.lua‚É’Ç‹L‚·‚éƒvƒƒOƒ‰ƒ€
+FiveMã®ãƒªã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’æŒ‡å®šã—ã¦ã€milo_.ymapã‚’æ¢ã—ã¦
+ãã®ä¸Šã«ã‚ã‚‹fxmanifest.luaã¨åŒã˜ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«interiorproxies.metaã‚’ä½œæˆ
+fxmanifest.luaã«è¿½è¨˜ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-‘½–Z‚·‚¬‚ÄƒoƒO‚ª‚ ‚Á‚Ä‚à‘Î‰‚Å‚«‚È‚¢‚Æv‚¢‚Ü‚·
+å¤šå¿™ã™ãã¦ãƒã‚°ãŒã‚ã£ã¦ã‚‚å¯¾å¿œã§ããªã„ã¨æ€ã„ã¾ã™
 
-ƒI[ƒvƒ“ƒ\[ƒX‚È‚Ì‚Å©—R‚Ég‚Á‚Ä‚­‚¾‚³‚¢B
+ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹ãªã®ã§è‡ªç”±ã«ä½¿ã£ã¦ãã ã•ã„ã€‚
 
 Twitter
 
@@ -19,10 +19,8 @@ Youtube
 
 https://www.youtube.com/MisakiVanilla
 
-‰^‰c‚µ‚Ä‚éŠX Luculia Twitter
-https://twitter.com/LuculiaGTA
+é‹å–¶ã—ã¦ã‚‹è¡— Luculia Twitter
+https://x.com/LuculiaChron
 
 Luculia Discord
 https://discord.gg/WVrF4FyHEK
-
-Modì‚è‚É‹»–¡‚ ‚él‚àDiscord©—RQ‰ÁOK‚Å‚·B
