@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
 [assembly: AssemblyTitle("InteriorsproxiesCreator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("GTA Interiorsproxies tool")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("MisakiVanilla")]
 [assembly: AssemblyProduct("InteriorsproxiesCreator")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("MisakiVanilla")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible を false に設定すると、このアセンブリ内の型は COM コンポーネントから
