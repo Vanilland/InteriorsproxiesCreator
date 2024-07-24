@@ -90,7 +90,7 @@ namespace InteriorsproxiesCreator
         }
 
         /// <summary>
-        /// .ymapファイルがある場所をさがしてinteriorproxies.metaを作成する
+        /// .ymapファイルがある場所をさがしてinteriorproxies.metaに追記する
         /// fxmanifestのfilesに追加する
         /// </summary>
         /// <param name="dir"></param>
@@ -118,6 +118,11 @@ namespace InteriorsproxiesCreator
             }
         }
 
+        /// <summary>
+        /// リソースフォルダ、ドラッグドロップでフォルダ名を入力できるように。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void resourcefolder_DragDrop(object sender, DragEventArgs e)
         {
             if (!e.Data.GetDataPresent(DataFormats.FileDrop)) return;
