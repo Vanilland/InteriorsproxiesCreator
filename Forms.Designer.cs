@@ -50,10 +50,13 @@
             // 
             // resourcefolder
             // 
+            this.resourcefolder.AllowDrop = true;
             this.resourcefolder.Location = new System.Drawing.Point(13, 29);
             this.resourcefolder.Name = "resourcefolder";
             this.resourcefolder.Size = new System.Drawing.Size(440, 19);
             this.resourcefolder.TabIndex = 1;
+            this.resourcefolder.DragDrop += new System.Windows.Forms.DragEventHandler(this.resourcefolder_DragDrop);
+            this.resourcefolder.DragEnter += new System.Windows.Forms.DragEventHandler(this.resourcefolder_DragEnter);
             // 
             // doStartButton
             // 

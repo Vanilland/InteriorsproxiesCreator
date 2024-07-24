@@ -3,11 +3,8 @@ FiveM InteriorsproxiesCreator
 
 Visual Studio 2022 C#
 
-FiveMのリソースファイルを指定して、milo_.ymapを探して
-その上にあるfxmanifest.luaと同じディレクトリにinteriorproxies.metaを作成
-fxmanifest.luaに追記するプログラム
-
-多忙すぎてバグがあっても対応できないと思います
+FiveMのリソースファイルを指定して、.ymapを探して
+interiorproxies.metaを作成するプログラム
 
 オープンソースなので自由に使ってください。
 
